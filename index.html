@@ -13,11 +13,11 @@
 </head>
 <body>
   
-<nav class="grey darken-4" role="navigation">
+<nav class="grey darken-4 menu-attached" role="navigation">
     <div class="nav-wrapper container">
     	<a id="logo-container" href="#" class="brand-logo">Logo</a>
     	<ul class="right hide-on-med-and-down text-grey lighten-2">
-        	<li><a href="index.html" class="light-blue-text text-lighten-2">A Propos</a></li>
+        	<li><a href="#about" class="light-blue-text text-lighten-2 js-scrollTo">A Propos</a></li>
         	<li><a href="pages/events.html" class="light-blue-text text-lighten-2">Events</a></li>
         	<li><a href="pages/assos.html" class="light-blue-text text-lighten-2">Assos</a></li>
           <a href="pages/inscription.html" id="trigger-overlay" class="waves-effect waves-light btn light-blue lighten-2">S'inscrire</a>
@@ -25,7 +25,11 @@
     	</ul>
 
     	<ul id="nav-mobile" class="side-nav">
-        	<li><a href="#">Navbar Link</a></li>
+        	<li><a href="index.html" class="light-blue-text text-lighten-2">A Propos</a></li>
+          <li><a href="pages/events.html" class="light-blue-text text-lighten-2">Events</a></li>
+          <li><a href="pages/assos.html" class="light-blue-text text-lighten-2">Assos</a></li>
+          <a href="pages/inscription.html" id="trigger-overlay" class="waves-effect waves-light btn light-blue lighten-2">S'inscrire</a>
+          <a class="waves-effect waves-light btn light-blue lighten-2">Se connecter</a>
     	</ul>
       	<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -40,7 +44,7 @@
           		<h5 class="header col s12 light">Nulla vel massa quis mi pellentesque rutrum ac vitae ligula. Vivamus id augue vulputate, sodales risus id, commodo erat. Integer nibh augue, eleifend in convallis fermentum, facilisis eget nisi.</h5>
         	</div>
         	<div class="row center">
-          		<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light grey darken-4 blue-text text-lighten-2">En Savoir Plus ...</a>
+          		<a href="#about" id="download-button" class="btn-large waves-effect waves-light grey darken-4 blue-text text-lighten-2 js-scrollTo">En Savoir Plus ...</a>
         	</div>
         	<br><br>
 
@@ -49,11 +53,11 @@
     <div class="parallax"><img src="images/biker.jpg" alt="Unsplashed background img 1"></div>
 </div>
 
-
+<section id="about">
 <div class="container">
   <div class="section">
 
-    <div class="row">
+    <div class="row menu-scroll">
       <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>A Propos</h4>
@@ -91,7 +95,7 @@
 
   </div>
 </div>
-
+</section>
 
 <div class="parallax-container valign-wrapper overlay">
     <div class="section no-pad-bot">
@@ -122,7 +126,7 @@
 <div class="parallax-container valign-wrapper overlay">
     <div class="section no-pad-bot">
       	<div class="container">
-        	<div class="row">
+        	<div class="row menu-scroll">
             <form class="col s12">
               <div class="row">
                 <div class="input-field col s6">
