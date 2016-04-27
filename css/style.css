@@ -80,3 +80,18 @@ footer.page-footer {
 .menu-scroll {
   margin-top: 50px;
 }
+
+.btn-submit {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #4fc3f7;
+  color: #4fc3f7;
+}
+
+.btn-submit:hover {
+  background: transparent;
+}
+
+.contact-title {
+  color: #4fc3f7;
+}
