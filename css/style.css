@@ -60,6 +60,10 @@ footer.page-footer {
 	height: 900px;
 }
 
+.parallax-container.parallax-hero-asso {
+  height: 900px;
+}
+
 .text-hero {
 	margin-top: 250px;
 }
@@ -72,9 +76,12 @@ footer.page-footer {
   max-width: 100%;
 }
 
-.btn-region {
-  width: 200px;
-  height: 55px;
+.dropdown-button.btn.btn-region {
+  width: 600px;
+  height: 60px;
+  padding-top: 12px;
+  font-size: 2em;
+  z-index: 999;
 }
 
 .menu-scroll {
@@ -94,4 +101,13 @@ footer.page-footer {
 
 .contact-title {
   color: #4fc3f7;
+}
+
+#index-banner {
+  max-height: 100%;
+  z-index: 999;
+}
+
+.dropdown-content {
+  z-index: 999;
 }
