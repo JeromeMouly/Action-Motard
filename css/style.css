@@ -16,7 +16,7 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #4fc3f7;
 }
 
 .parallax-container {
@@ -110,4 +110,8 @@ footer.page-footer {
 
 .dropdown-content {
   z-index: 999;
+}
+
+.btn-region {
+  max-width: 100%;
 }
