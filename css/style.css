@@ -64,6 +64,10 @@ footer.page-footer {
   height: 900px;
 }
 
+.parallax-container.parallax-hero-events {
+  height: 900px;
+}
+
 .text-hero {
 	margin-top: 250px;
 }
@@ -101,11 +105,6 @@ footer.page-footer {
 
 .contact-title {
   color: #4fc3f7;
-}
-
-#index-banner {
-  max-height: 100%;
-  z-index: 999;
 }
 
 .dropdown-content {
