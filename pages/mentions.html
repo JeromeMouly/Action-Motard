@@ -20,22 +20,93 @@
         	<li><a href="/index.html" class="light-blue-text text-lighten-2 js-scrollTo">A Propos</a></li>
         	<li><a href="events.html" class="light-blue-text text-lighten-2">Events</a></li>
         	<li><a href="assos.html" class="light-blue-text text-lighten-2">Assos</a></li>
-          <a href="pages/inscription.html" id="trigger-overlay" class="waves-effect waves-light btn light-blue lighten-2">S'inscrire</a>
-          <a class="waves-effect waves-light btn light-blue lighten-2">Se connecter</a>
+          <a href="#modal1" id="trigger-overlay" class="modal-trigger waves-effect waves-light btn light-blue lighten-2">S'inscrire</a>
+          <a href="#connection" id="trigger-overlay" class="modal-connection waves-effect waves-light btn waves-effect waves-light btn light-blue lighten-2">Se connecter</a>
     	</ul>
 
     	<ul id="nav-mobile" class="side-nav">
         	<li><a href="/index.html" class="light-blue-text text-lighten-2">A Propos</a></li>
           <li><a href="events.html" class="light-blue-text text-lighten-2">Events</a></li>
           <li><a href="assos.html" class="light-blue-text text-lighten-2">Assos</a></li>
-          <a href="pages/inscription.html" id="trigger-overlay" class="waves-effect waves-light btn light-blue lighten-2">S'inscrire</a>
-          <a class="waves-effect waves-light btn light-blue lighten-2">Se connecter</a>
+          <a href="#modal1" id="trigger-overlay" class="modal-trigger waves-effect waves-light btn light-blue lighten-2">S'inscrire</a>
+          <a href="#connection" id="trigger-overlay" class="modal-connection waves-effect waves-light btn waves-effect waves-light btn light-blue lighten-2">Se connecter</a>
     	</ul>
       	<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
 </nav>
 
-<div class="container">
+<!-- Modal Inscrire -->
+<div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <div class="col s12 center">
+        <h3>Inscription</h3>
+      </div>
+      <div class="row form-inscription">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">Prénom</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Nom</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="text" class="validate">
+              <label for="password">Votre Mot de Passe</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Retaper Votre Mot de Passe</label>
+            </div>
+          </div>
+          <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row center">
+          <button class="btn waves-effect waves-light btn-submit" type="submit" name="action">Envoyer
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Connection -->
+  <div id="connection" class="modal">
+    <div class="modal-content">
+      <form>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="text" class="validate">
+            <label for="password">Votre Mot de Passe</label>
+          </div>
+        </div>
+        <div class="row center">
+          <button class="btn waves-effect waves-light btn-submit" type="submit" name="action">Envoyer
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<div class="container menu-scroll">
 	<div class="col s12 center"><h2>Mentions Légales / Crédits</h2></div>
 	<div class="row">
 		<div class="col s12 m6">
@@ -48,7 +119,7 @@
 				Tél. </p>
 		</div>
 		<div class="col s12 m6">
-			<p>Directrice de la publication: Thomas Bricquet
+			<p>Directeur de la publication : Thomas Bricquet
 			<br>
 				Création site internet : Thomas Bricquet & Jérôme Mouly
 			<br>
@@ -126,8 +197,8 @@
 </footer>
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="//js/materialize.js"></script>
-    <script src="//js/script.js"></script>
+    <script type="text/javascript" src="/js/materialize.js"></script>
+    <script src="/js/script.js"></script>
 
     <script type="text/javascript">
   	WebFontConfig = {
