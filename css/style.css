@@ -76,17 +76,17 @@ footer.page-footer {
 
 .parallax-container.img-hero {
 	height: 910px;
-  top: 64px;
+  top: 55px;
 }
 
 .parallax-container.parallax-hero-asso {
   height: 910px;
-  top: 64px;  
+  top: 55px;  
 }
 
 .parallax-container.parallax-hero-events {
   height: 910px;
-  top: 64px;
+  top: 55px;
 }
 
 .text-hero {
@@ -150,9 +150,21 @@ footer.page-footer {
 position: fixed;
 right: 0;
 left: 0;
-z-index: 1030;
+/*z-index: 1030;*/
 }
 
 .navbar-fixed {
-top: ;
+top: 0;
+}
+
+.icon-home {
+  margin-top: 200px;
+}
+
+.icon-events {
+  margin-top: 545px;
+}
+
+.icon-assos {
+  margin-top: 545px;
 }
