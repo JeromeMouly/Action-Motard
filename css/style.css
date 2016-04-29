@@ -119,3 +119,12 @@ footer.page-footer {
 .btn-region {
   max-width: 100%;
 }
+
+.form-inscription {
+  margin-top: 50px;
+}
+
+.form-contact {
+  max-width: 100%;
+  max-height: 100%;
+}
