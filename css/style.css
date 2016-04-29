@@ -158,7 +158,7 @@ top: 0;
 }
 
 .icon-home {
-  margin-top: 200px;
+  margin-top: 205px;
 }
 
 .icon-events {
@@ -167,4 +167,8 @@ top: 0;
 
 .icon-assos {
   margin-top: 545px;
+}
+
+.brand-logo {
+  font-family: 'Paytone One';
 }
